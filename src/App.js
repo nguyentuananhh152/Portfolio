@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Particle from './components/Particle';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="App">
+    //   <header className="App-header">
+    //     <img src={logo} className="App-logo" alt="logo" />
+    //     <p>
+    //       Profile                                                 
+    //     </p>
+    //     <a
+    //       className="App-link"
+    //       href="https://www.facebook.com/xinosaki.ori.1"
+    //       target="_blank"
+    //       rel="noopener noreferrer"
+    //     >
+    //       FaceBook
+    //     </a>
+    //   </header>
+    //   {/*  */}
+      
+    // </div>
+    <>
+      <Particle/>
+      {/* <h1 style={{color:"black"}}>
+        Nguyen Tuan Anh
+      </h1> */}
+    </>
   );
 }
 
